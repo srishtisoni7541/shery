@@ -1,0 +1,575 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(https://www.apsley.co.za/cdn/fonts/neuzeit_s/neuzeits_n4.7275204c8756b197aaff0f2e456feac4e614cb3d.woff2?h1=YXBzbGV5Z3JvdXAuY28uemE&h2=YXBzbGV5LWcuYWNjb3VudC5teXNob3BpZnkuY29t&h3=YXBzbGV5LmNvLnph&hmac=6b7a9def3ace9b134a7596c7ed9182828ad8cbdea13c4e3701d68668e6ccf60a);
+}
+@font-face {
+    font-family: font1;
+    src: url(https://www.apsley.co.za/cdn/shop/files/Future-History-Regular.woff?v=1696411153);
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.page1 .h1text {
+    height: 10vh;
+    width: 20%;
+    /* background-color: red; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+position: relative;
+left: 40%;
+}
+
+img{
+    height: 50px;
+    width:200px;
+}
+.page1 .nav{
+    height: 8vh;
+    position: relative;
+    top: 2vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* background-color: red; */
+    padding:3vw;
+}
+.nav .mid{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2vw;
+}
+.nav button{
+    padding: 1vw 2vw;
+    border: 2.5px solid black;
+    background-color: transparent;
+    font-size:1.5vw;
+    text-transform: uppercase;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color:black;
+    text-transform: uppercase;
+    font-family: "font1";
+    font-weight: 100;
+}
+.navleft i{
+    font-size: 2vw;
+}
+.navright{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap:2vw;
+}
+.navright i{
+    font-size: 2vw;
+}
+.videocontainer{
+    height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    top: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* gap: 10vw; */
+}
+.videocontainer .img1{
+    height:100%;
+    width: 100%;
+    /* background-color: #f37777; */
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+
+}
+.videocontainer .textcontainer{
+    height: 70vh;
+    width: 100%;
+    background-color: #D8C23D;
+z-index: 9999;
+position: relative;
+top:-1vw;
+text-align: center;
+}
+.textcontainer .img img{
+    height: 70px;
+    width: 180px;
+    position: relative;
+    top:2vw;
+
+}
+.textcontainer h2{
+    margin-top: 5vw;
+    text-transform: uppercase;
+    font-family: "font1";
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+.textcontainer p{
+    font-family: "font2";
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+
+.page2imgcontainer{
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    
+}
+.page2imgcontainer .imgleft{
+    height: 120%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apsley.co.za/cdn/shop/files/Home_Example_1.png?v=1698668740&width=1200);
+    background-size: cover;
+    background-position: 42% 0px;
+    position: relative;
+    /* scale:.9; */
+    top: 9vw;
+    /* z-index: 9; */
+}
+.imgleft .textleft{
+    height: 20vh;
+    width: 40%;
+    /* background-color: #6e6b6b; */
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    z-index: 9999;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2vw;
+}
+.imgleft .textleft h1{
+    font-family: 'font1';
+    font-size: 4.4vw;
+    color: #fff;
+}
+.textleft button{
+    padding: 1vw 3vw;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 1.2vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.imgright .textright{
+    height: 20vh;
+    width: 50%;
+    /* background-color: #6e6b6b; */
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    z-index: 9999;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2vw;
+}
+.imgright .textright h1{
+    font-family: 'font1';
+    font-size: 4.4vw;
+    color: #fff;
+}
+.textright button{
+    padding: 1vw 3vw;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 1.2vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+.page2imgcontainer .imgright{
+    height: 120%;
+    width: 50%;
+    background-color: rgb(43, 255, 0);
+    background-image: url(https://www.apsley.co.za/cdn/shop/files/2400x1360_Catalogo-FW2324-200.jpg?v=1699305969&width=2000);
+   background-size: cover;
+   background-position: 42% 0px;
+   position: relative;
+   /* scale:.9; */
+   top: 9vw;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 18%;
+}
+ .page3 .page3imgcontainer{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10vw;
+}
+.page3imgcontainer .img3{
+    height: 80vh;
+    width: 40%;
+    background-color: #fff;
+    
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.img32{
+    height: 300px;
+    position: relative;
+    top: -45%;
+    left: 70%;
+    width: 230px;
+    background-color: blue;
+}
+.img32 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.page3imgcontainer .text3{
+    height: 100%;
+    width: 50%;
+    /* background-color: violet; */
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.text3 h1{
+    font-family: "font1";
+    font-size: 3vw;
+
+}
+.text3 p{
+    font-family: "font2";
+    font-size: 1.5vw;
+}
+.text3 button{
+    padding: 1vw 2vw;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: none;
+}
+.page4{
+    height: 150vh;
+    width: 100%;
+    background-color:#fff;
+}
+
+
+.page4part1{
+    height: 40%;
+    width: 100%;
+    background-color: #CAC0B6;
+    position: relative;
+    top: 10vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+
+
+.page4part1 .h4text h4{
+    font-size: 3vw;
+    font-family: "font1";
+
+}
+.h4text p{
+    font-family: 'font2';
+    font-size:1.4vw;
+}
+.emailtext{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2vw;
+    /* width: 5vw; */
+    /* background-color: #fff; */
+}
+.emailtext input{
+    padding: 1vw 2vw;
+    background-color: #000;
+    color: #fff;
+    /* border: 2px solid #fff; */
+    border: none;
+}
+
+.emailtext button{
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: none;
+
+}
+.feedback{
+    height: 70%;
+    width: 100%;
+    background-color: #272626;
+}
+.feedback .box{
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.box .name h1{
+    font-family: "font1";
+    color: #ffffff;
+    font-size: 2vw;
+    position: relative;
+    top: 5vw;
+    left: 2vw;
+
+}
+
+.feedback h2{
+    font-size: 5vw;
+    font-family: "font1";
+    color: #fff;
+    position: relative;
+    top: 10vw;
+    left: 30vw;
+}
+.nameright img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    top: 5vw;
+    color: #fff;
+    right: 3vw;
+}
+
+
+@media (max-width:600px) {
+    .page1{
+        height: 100%;
+        width: 100%;
+    }
+    .page1 .nav .mid a{ 
+        display: none;
+        
+    }
+    .page1 .navleft i{
+        font-size:10vw;
+    }
+    .nav .mid button{
+        padding: 3vw 5vw;
+        font-size: 3vw;
+    }
+    .nav .navright i{
+        font-size: 10vw;
+
+    }
+    .page1 .videocontainer{
+        height: 50%;
+        width: 100%;
+    }
+    .textcontainer{
+        padding-top: 25vw;
+
+    }
+    .textcontainer h2{
+        font-size: 7vw;
+        margin-top:10vw;
+
+    }
+    .textcontainer p{
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+    .textcontainer .img img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .page2imgcontainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .page2imgcontainer .imgleft{
+        height:70%;
+        width: 100%;
+    }
+
+
+    .page2imgcontainer .imgright{
+        height:70%;
+        width: 100%;
+    }
+
+    .page3imgcontainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .page3imgcontainer .img3{
+        height: 70%;
+        width: 80%;
+    }
+    .text3{
+        position: relative;
+        top: 4vw;
+    }
+    .text3 h1{
+        font-size: 10vw;
+        position: relative;
+        left: 20vw;
+    }
+    .text3 p{
+        font-size: 3vw;
+        position: relative;
+        left: 20vw;
+    }
+    .text3 button{
+        position: relative;
+        left: 20vw;
+        top: 5vw;
+    }
+    
+}
